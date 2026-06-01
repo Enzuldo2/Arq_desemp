@@ -1,0 +1,8 @@
+module packeger(
+
+
+);
+
+	assign pack = {6'b000011, pixel_out};
+	
+endmodule

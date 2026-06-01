@@ -1,0 +1,6 @@
+
+State Machine - |JogodaVida|GameofLife2:inst3|state
+Name state.ST_IDLE state.ST_DONE state.ST_RUN 
+state.ST_IDLE 0 0 0 
+state.ST_RUN 1 0 1 
+state.ST_DONE 1 1 0 

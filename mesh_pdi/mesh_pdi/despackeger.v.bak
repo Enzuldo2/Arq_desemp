@@ -1,0 +1,8 @@
+module packeger (
+	input wire pixel_in,
+	output wire [6:0] pack_out
+);
+
+	assign pack_out = {6'b000011, pixel_in};
+	
+endmodule
