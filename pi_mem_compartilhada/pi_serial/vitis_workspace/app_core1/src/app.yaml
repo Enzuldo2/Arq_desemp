@@ -1,0 +1,4 @@
+domain_path: C:\Users\820759\pi_serial\vitis_workspace\zybo_platform\export\zybo_platform\sw\domain_core1
+app_src_dir: C:\AMDDesignTools\2025.2\Vitis\data\embeddedsw\lib\sw_apps\hello_world
+template: hello_world
+lang: c

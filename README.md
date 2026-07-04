@@ -8,6 +8,9 @@ Este repositório contém todos os projetos teóricos e práticos desenvolvidos 
 - Projeto 2: Implementação acelerada em hardware do **Jogo da Vida de Conway** (matriz 64x64) com pipeline de 4 estágios, renderização VGA integrada e otimizações de indexação por fatiamento de bits (sem multiplicadores) em FPGA DE10.
 - Projeto 3: Sistema de processamento de vídeo em tempo real contendo filtros morfológicos de **Máximo** (Dilatação) e **Mínimo** (Erosão) em uma janela 3x3 (line buffers), além de detector de bordas **Sobel** simplificado em hardware.
 - Projeto 4: Rede em Malha 4x4 (Network-on-Chip - NoC) com algoritmo de roteamento XY estruturado em serpente para a aplicação distribuída e paralela de filtragem digital de imagens nos nós (cores).
+- Projeto 5:
+- Projeto 6: Implementação de arquitetura dual-core de memória compartilhada em FPGA Xilinx Zynq para aceleração do cálculo de Pi pela **Série de Leibniz**. Utiliza dois núcleos bare-metal ARM Cortex-A9 com divisão do processamento e sincronização de dados via comunicação por BRAM compartilhada.
+- Projeto 7:
 
 ## Compilação e Execução Geral
 
