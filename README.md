@@ -10,7 +10,7 @@ Este repositório contém todos os projetos teóricos e práticos desenvolvidos 
 - Projeto 4: Rede em Malha 4x4 (Network-on-Chip - NoC) com algoritmo de roteamento XY estruturado em serpente para a aplicação distribuída e paralela de filtragem digital de imagens nos nós (cores).
 - Projeto 5:
 - Projeto 6: Implementação de arquitetura dual-core de memória compartilhada em FPGA Xilinx Zynq para aceleração do cálculo de Pi pela **Série de Leibniz**. Utiliza dois núcleos bare-metal ARM Cortex-A9 com divisão do processamento e sincronização de dados via comunicação por BRAM compartilhada.
-- Projeto 7:
+- Projeto 7: Cálculo do valor de **π** pelo método de Monte Carlo com paralelismo em memória distribuída via **MPI** (mpi4py), comparando execução serial, MPI com loop puro e MPI vetorizado com NumPy (SIMD).
 
 ## Compilação e Execução Geral
 
