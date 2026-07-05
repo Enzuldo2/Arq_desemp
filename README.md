@@ -11,6 +11,7 @@ Este repositório contém todos os projetos teóricos e práticos desenvolvidos 
 - Projeto 5: Benchmarks de computação paralela em GPU (NVIDIA RTX 3060) para **Transformada Rápida de Fourier (FFT)** e o cálculo do **Fractal de Mandelbrot**, comparando CPU serial, vetorização NumPy, GPU vetorizada (PyTorch) e compilação JIT de kernels customizados (Numba CUDA). Speedup de até **2220x** em relação à CPU serial.
 - Projeto 6: Implementação de arquitetura dual-core de memória compartilhada em FPGA Xilinx Zynq para aceleração do cálculo de Pi pela **Série de Leibniz**. Utiliza dois núcleos bare-metal ARM Cortex-A9 com divisão do processamento e sincronização de dados via comunicação por BRAM compartilhada.
 - Projeto 7: Cálculo do valor de **π** pelo método de Monte Carlo com paralelismo em memória distribuída via **MPI** (mpi4py), comparando execução serial, MPI com loop puro e MPI vetorizado com NumPy (SIMD).
+- Projeto 8: Implementação do clássico **Snake Game** em C (bare-metal) para processador ARM em FPGA SoC. O projeto utiliza o Altera Monitor Program e demonstra o controle direto de hardware, incluindo acesso ao buffer de pixels VGA para renderização de sprites customizados, buffer de caracteres para a interface (HUD), temporização via ARM Private Timer e leitura de botões para os controles do jogo.
 
 ## Compilação e Execução Geral
 
