@@ -1,6 +1,0 @@
-module filtro (
-    input clk,
-    input img,
-    input sel, // 1 = minimo, 0 = maximo
-    output reg [DATA_WIDTH-1:0] out
-);

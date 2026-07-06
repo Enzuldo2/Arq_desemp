@@ -1,1 +1,0 @@
-Warning (10268): Verilog HDL information at router.v(111): always construct contains both blocking and non-blocking assignments File: C:/intelFPGA/23.1std/projects_aad/mesh_pdi/router.v Line: 111
